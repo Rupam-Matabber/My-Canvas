@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif;
+}
+.container {
+    height: 100%;
+}
+.groups{
+    display: flex;
+    flex-direction: row;
+}
+#toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #24262b;
+    position: absolute;
+}
+#toolbar * {
+    margin: 5px 30px;
+    font-size: 20px;
+}
+#toolbar label {
+    font-size: 20px;
+    margin-right: 0px;
+}
+#toolbar button {
+    background-color: #c78a51;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    padding: 5px 10px;
+    transition: all 0.3s linear;
+}
+#toolbar button:hover{
+    background:#ad7000;
+    box-shadow: 0px 5px 8px #81818171;
+}
+#title{
+    margin-left: 0px;
+    margin-right: 330px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #c78a51;
+}
+#brush{
+    margin-right: 6px;
+}

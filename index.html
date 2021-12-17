@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>   
+    <title>My Canvas</title>
+</head>
+
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <h1 id="title"><i class="fas fa-paint-brush" id="brush"></i>My Canvas</h1>
+            <div class="groups">
+                <label for="stroke">Color</label>
+                <input id="stroke" name='stroke' type="color">
+            </div>
+            <div class="groups">
+                <label for="lineWidth">Brush Size</label>
+                <input id="lineWidth" name='lineWidth' type="number" value="4">
+            </div>
+            <div class="groups"><button id="clear">Erase</button></div>
+        </div>
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
